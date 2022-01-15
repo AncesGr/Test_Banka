@@ -74,5 +74,15 @@ namespace Test_Banka
             banka.ZmenaLimituPlatba(zmenaLimituPlatba);
             labelCastkaVyber.Text = zmenaLimituPlatba.ToString();
         }
+
+        private void lblJmeno_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUctu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

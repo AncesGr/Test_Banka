@@ -61,33 +61,37 @@ namespace Test_Banka
             // lblAktualniLimit
             // 
             this.lblAktualniLimit.AutoSize = true;
+            this.lblAktualniLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblAktualniLimit.Location = new System.Drawing.Point(21, 48);
             this.lblAktualniLimit.Name = "lblAktualniLimit";
-            this.lblAktualniLimit.Size = new System.Drawing.Size(86, 17);
+            this.lblAktualniLimit.Size = new System.Drawing.Size(104, 20);
             this.lblAktualniLimit.TabIndex = 0;
             this.lblAktualniLimit.Text = "Aktuální limit";
             // 
             // lblCastkaLimit
             // 
             this.lblCastkaLimit.AutoSize = true;
-            this.lblCastkaLimit.Location = new System.Drawing.Point(39, 65);
+            this.lblCastkaLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblCastkaLimit.Location = new System.Drawing.Point(39, 68);
             this.lblCastkaLimit.Name = "lblCastkaLimit";
-            this.lblCastkaLimit.Size = new System.Drawing.Size(40, 17);
+            this.lblCastkaLimit.Size = new System.Drawing.Size(45, 20);
             this.lblCastkaLimit.TabIndex = 1;
             this.lblCastkaLimit.Text = "7500";
             // 
             // textBoxLimit
             // 
-            this.textBoxLimit.Location = new System.Drawing.Point(137, 48);
+            this.textBoxLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxLimit.Location = new System.Drawing.Point(137, 51);
             this.textBoxLimit.Name = "textBoxLimit";
-            this.textBoxLimit.Size = new System.Drawing.Size(100, 22);
+            this.textBoxLimit.Size = new System.Drawing.Size(100, 27);
             this.textBoxLimit.TabIndex = 2;
             // 
             // buttonLimit
             // 
+            this.buttonLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonLimit.Location = new System.Drawing.Point(243, 48);
             this.buttonLimit.Name = "buttonLimit";
-            this.buttonLimit.Size = new System.Drawing.Size(109, 23);
+            this.buttonLimit.Size = new System.Drawing.Size(115, 40);
             this.buttonLimit.TabIndex = 3;
             this.buttonLimit.Text = "Změnit limit";
             this.buttonLimit.UseVisualStyleBackColor = true;
@@ -96,26 +100,29 @@ namespace Test_Banka
             // labelVyberLimit
             // 
             this.labelVyberLimit.AutoSize = true;
+            this.labelVyberLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelVyberLimit.Location = new System.Drawing.Point(21, 136);
             this.labelVyberLimit.Name = "labelVyberLimit";
-            this.labelVyberLimit.Size = new System.Drawing.Size(80, 17);
+            this.labelVyberLimit.Size = new System.Drawing.Size(96, 20);
             this.labelVyberLimit.TabIndex = 4;
             this.labelVyberLimit.Text = "Limit vybrat";
             // 
             // labelCastkaVyber
             // 
             this.labelCastkaVyber.AutoSize = true;
-            this.labelCastkaVyber.Location = new System.Drawing.Point(31, 153);
+            this.labelCastkaVyber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelCastkaVyber.Location = new System.Drawing.Point(36, 156);
             this.labelCastkaVyber.Name = "labelCastkaVyber";
-            this.labelCastkaVyber.Size = new System.Drawing.Size(48, 17);
+            this.labelCastkaVyber.Size = new System.Drawing.Size(54, 20);
             this.labelCastkaVyber.TabIndex = 5;
             this.labelCastkaVyber.Text = "10000";
             // 
             // btnLimitPlatba
             // 
+            this.btnLimitPlatba.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnLimitPlatba.Location = new System.Drawing.Point(243, 136);
             this.btnLimitPlatba.Name = "btnLimitPlatba";
-            this.btnLimitPlatba.Size = new System.Drawing.Size(75, 23);
+            this.btnLimitPlatba.Size = new System.Drawing.Size(87, 40);
             this.btnLimitPlatba.TabIndex = 6;
             this.btnLimitPlatba.Text = "Výběr";
             this.btnLimitPlatba.UseVisualStyleBackColor = true;
@@ -123,32 +130,36 @@ namespace Test_Banka
             // 
             // txtLimitPlatba
             // 
-            this.txtLimitPlatba.Location = new System.Drawing.Point(137, 136);
+            this.txtLimitPlatba.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtLimitPlatba.Location = new System.Drawing.Point(137, 143);
             this.txtLimitPlatba.Name = "txtLimitPlatba";
-            this.txtLimitPlatba.Size = new System.Drawing.Size(100, 22);
+            this.txtLimitPlatba.Size = new System.Drawing.Size(100, 27);
             this.txtLimitPlatba.TabIndex = 7;
             // 
             // lblZadejHodnotu
             // 
             this.lblZadejHodnotu.AutoSize = true;
+            this.lblZadejHodnotu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblZadejHodnotu.Location = new System.Drawing.Point(21, 223);
             this.lblZadejHodnotu.Name = "lblZadejHodnotu";
-            this.lblZadejHodnotu.Size = new System.Drawing.Size(116, 17);
+            this.lblZadejHodnotu.Size = new System.Drawing.Size(132, 20);
             this.lblZadejHodnotu.TabIndex = 8;
             this.lblZadejHodnotu.Text = "Zadejte hodnotu:";
             // 
             // textBoxHodnota
             // 
-            this.textBoxHodnota.Location = new System.Drawing.Point(24, 243);
+            this.textBoxHodnota.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxHodnota.Location = new System.Drawing.Point(25, 248);
             this.textBoxHodnota.Name = "textBoxHodnota";
-            this.textBoxHodnota.Size = new System.Drawing.Size(100, 22);
+            this.textBoxHodnota.Size = new System.Drawing.Size(100, 27);
             this.textBoxHodnota.TabIndex = 9;
             // 
             // buttonVybrat
             // 
+            this.buttonVybrat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonVybrat.Location = new System.Drawing.Point(227, 242);
             this.buttonVybrat.Name = "buttonVybrat";
-            this.buttonVybrat.Size = new System.Drawing.Size(75, 23);
+            this.buttonVybrat.Size = new System.Drawing.Size(91, 38);
             this.buttonVybrat.TabIndex = 10;
             this.buttonVybrat.Text = "Vybrat";
             this.buttonVybrat.UseVisualStyleBackColor = true;
@@ -156,9 +167,10 @@ namespace Test_Banka
             // 
             // buttonVložit
             // 
+            this.buttonVložit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonVložit.Location = new System.Drawing.Point(137, 243);
             this.buttonVložit.Name = "buttonVložit";
-            this.buttonVložit.Size = new System.Drawing.Size(75, 23);
+            this.buttonVložit.Size = new System.Drawing.Size(84, 37);
             this.buttonVložit.TabIndex = 11;
             this.buttonVložit.Text = "Vložit";
             this.buttonVložit.UseVisualStyleBackColor = true;
@@ -167,41 +179,46 @@ namespace Test_Banka
             // lblHodnotaPlatby
             // 
             this.lblHodnotaPlatby.AutoSize = true;
+            this.lblHodnotaPlatby.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblHodnotaPlatby.Location = new System.Drawing.Point(21, 323);
             this.lblHodnotaPlatby.Name = "lblHodnotaPlatby";
-            this.lblHodnotaPlatby.Size = new System.Drawing.Size(160, 17);
+            this.lblHodnotaPlatby.Size = new System.Drawing.Size(184, 20);
             this.lblHodnotaPlatby.TabIndex = 12;
             this.lblHodnotaPlatby.Text = "Platba: Zadejte hodnotu";
             this.lblHodnotaPlatby.Click += new System.EventHandler(this.lblHodnotaPlatby_Click);
             // 
             // textBoxPlatba
             // 
-            this.textBoxPlatba.Location = new System.Drawing.Point(71, 343);
+            this.textBoxPlatba.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxPlatba.Location = new System.Drawing.Point(72, 346);
             this.textBoxPlatba.Name = "textBoxPlatba";
-            this.textBoxPlatba.Size = new System.Drawing.Size(100, 22);
+            this.textBoxPlatba.Size = new System.Drawing.Size(100, 27);
             this.textBoxPlatba.TabIndex = 13;
             // 
             // labelCisloUctu
             // 
             this.labelCisloUctu.AutoSize = true;
+            this.labelCisloUctu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelCisloUctu.Location = new System.Drawing.Point(68, 389);
             this.labelCisloUctu.Name = "labelCisloUctu";
-            this.labelCisloUctu.Size = new System.Drawing.Size(69, 17);
+            this.labelCisloUctu.Size = new System.Drawing.Size(84, 20);
             this.labelCisloUctu.TabIndex = 14;
             this.labelCisloUctu.Text = "Číslo účtu";
             // 
             // txtPlatbaCisloUctu
             // 
-            this.txtPlatbaCisloUctu.Location = new System.Drawing.Point(71, 409);
+            this.txtPlatbaCisloUctu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtPlatbaCisloUctu.Location = new System.Drawing.Point(71, 412);
             this.txtPlatbaCisloUctu.Name = "txtPlatbaCisloUctu";
-            this.txtPlatbaCisloUctu.Size = new System.Drawing.Size(100, 22);
+            this.txtPlatbaCisloUctu.Size = new System.Drawing.Size(100, 27);
             this.txtPlatbaCisloUctu.TabIndex = 15;
             // 
             // buttonZaplatit
             // 
+            this.buttonZaplatit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonZaplatit.Location = new System.Drawing.Point(71, 456);
             this.buttonZaplatit.Name = "buttonZaplatit";
-            this.buttonZaplatit.Size = new System.Drawing.Size(75, 23);
+            this.buttonZaplatit.Size = new System.Drawing.Size(100, 33);
             this.buttonZaplatit.TabIndex = 16;
             this.buttonZaplatit.Text = "Zaplatit";
             this.buttonZaplatit.UseVisualStyleBackColor = true;
@@ -210,33 +227,37 @@ namespace Test_Banka
             // lblKontokorent
             // 
             this.lblKontokorent.AutoSize = true;
+            this.lblKontokorent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblKontokorent.Location = new System.Drawing.Point(280, 323);
             this.lblKontokorent.Name = "lblKontokorent";
-            this.lblKontokorent.Size = new System.Drawing.Size(85, 17);
+            this.lblKontokorent.Size = new System.Drawing.Size(98, 20);
             this.lblKontokorent.TabIndex = 17;
             this.lblKontokorent.Text = "Kontokorent";
             // 
             // txtKontokorent
             // 
+            this.txtKontokorent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtKontokorent.Location = new System.Drawing.Point(283, 353);
             this.txtKontokorent.Name = "txtKontokorent";
-            this.txtKontokorent.Size = new System.Drawing.Size(100, 22);
+            this.txtKontokorent.Size = new System.Drawing.Size(100, 27);
             this.txtKontokorent.TabIndex = 18;
             // 
             // lblKontokorentCastka
             // 
             this.lblKontokorentCastka.AutoSize = true;
+            this.lblKontokorentCastka.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblKontokorentCastka.Location = new System.Drawing.Point(280, 389);
             this.lblKontokorentCastka.Name = "lblKontokorentCastka";
-            this.lblKontokorentCastka.Size = new System.Drawing.Size(16, 17);
+            this.lblKontokorentCastka.Size = new System.Drawing.Size(18, 20);
             this.lblKontokorentCastka.TabIndex = 19;
             this.lblKontokorentCastka.Text = "0";
             // 
             // buttonKontokorent
             // 
+            this.buttonKontokorent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonKontokorent.Location = new System.Drawing.Point(283, 426);
             this.buttonKontokorent.Name = "buttonKontokorent";
-            this.buttonKontokorent.Size = new System.Drawing.Size(100, 23);
+            this.buttonKontokorent.Size = new System.Drawing.Size(144, 31);
             this.buttonKontokorent.TabIndex = 20;
             this.buttonKontokorent.Text = "Kontokorent";
             this.buttonKontokorent.UseVisualStyleBackColor = true;
@@ -245,54 +266,65 @@ namespace Test_Banka
             // lblJmenoPrijmeni
             // 
             this.lblJmenoPrijmeni.AutoSize = true;
-            this.lblJmenoPrijmeni.Location = new System.Drawing.Point(495, 51);
+            this.lblJmenoPrijmeni.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblJmenoPrijmeni.Location = new System.Drawing.Point(483, 51);
             this.lblJmenoPrijmeni.Name = "lblJmenoPrijmeni";
-            this.lblJmenoPrijmeni.Size = new System.Drawing.Size(119, 17);
+            this.lblJmenoPrijmeni.Size = new System.Drawing.Size(143, 20);
             this.lblJmenoPrijmeni.TabIndex = 21;
             this.lblJmenoPrijmeni.Text = "Jméno a příjmení:";
             // 
             // lblUctu
             // 
             this.lblUctu.AutoSize = true;
-            this.lblUctu.Location = new System.Drawing.Point(495, 115);
+            this.lblUctu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblUctu.Location = new System.Drawing.Point(483, 115);
             this.lblUctu.Name = "lblUctu";
-            this.lblUctu.Size = new System.Drawing.Size(73, 17);
+            this.lblUctu.Size = new System.Drawing.Size(89, 20);
             this.lblUctu.TabIndex = 22;
             this.lblUctu.Text = "Číslo účtu:";
+            this.lblUctu.Click += new System.EventHandler(this.lblUctu_Click);
             // 
             // lblZustatek
             // 
             this.lblZustatek.AutoSize = true;
-            this.lblZustatek.Location = new System.Drawing.Point(495, 185);
+            this.lblZustatek.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblZustatek.Location = new System.Drawing.Point(485, 185);
             this.lblZustatek.Name = "lblZustatek";
-            this.lblZustatek.Size = new System.Drawing.Size(119, 17);
+            this.lblZustatek.Size = new System.Drawing.Size(141, 20);
             this.lblZustatek.TabIndex = 23;
             this.lblZustatek.Text = "Aktuální zůstatek:";
             // 
             // lblJmeno
             // 
             this.lblJmeno.AutoSize = true;
-            this.lblJmeno.Location = new System.Drawing.Point(624, 51);
+            this.lblJmeno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblJmeno.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblJmeno.Location = new System.Drawing.Point(632, 51);
             this.lblJmeno.Name = "lblJmeno";
-            this.lblJmeno.Size = new System.Drawing.Size(13, 17);
+            this.lblJmeno.Size = new System.Drawing.Size(15, 20);
             this.lblJmeno.TabIndex = 24;
             this.lblJmeno.Text = "-";
+            this.lblJmeno.Click += new System.EventHandler(this.lblJmeno_Click);
             // 
             // lblCisloUctu
             // 
             this.lblCisloUctu.AutoSize = true;
-            this.lblCisloUctu.Location = new System.Drawing.Point(574, 115);
+            this.lblCisloUctu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblCisloUctu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblCisloUctu.Location = new System.Drawing.Point(578, 115);
             this.lblCisloUctu.Name = "lblCisloUctu";
-            this.lblCisloUctu.Size = new System.Drawing.Size(13, 17);
+            this.lblCisloUctu.Size = new System.Drawing.Size(15, 20);
             this.lblCisloUctu.TabIndex = 25;
             this.lblCisloUctu.Text = "-";
             // 
             // lblAktualniZustatek
             // 
             this.lblAktualniZustatek.AutoSize = true;
-            this.lblAktualniZustatek.Location = new System.Drawing.Point(620, 185);
+            this.lblAktualniZustatek.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblAktualniZustatek.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblAktualniZustatek.Location = new System.Drawing.Point(632, 185);
             this.lblAktualniZustatek.Name = "lblAktualniZustatek";
-            this.lblAktualniZustatek.Size = new System.Drawing.Size(13, 17);
+            this.lblAktualniZustatek.Size = new System.Drawing.Size(15, 20);
             this.lblAktualniZustatek.TabIndex = 26;
             this.lblAktualniZustatek.Text = "-";
             // 
@@ -300,7 +332,7 @@ namespace Test_Banka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(791, 522);
             this.Controls.Add(this.lblAktualniZustatek);
             this.Controls.Add(this.lblCisloUctu);
