@@ -26,7 +26,7 @@ namespace Test_Banka
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            banka = new Banka("Anna Greplová", 6000, "1969/35");
+            banka = new Banka("Anna Greplová", 10000, "1969/35");
             lblJmeno.Text = banka.jmeno;
             lblCisloUctu.Text = banka.cisloUctu.ToString();
             lblAktualniZustatek.Text = banka.aktualniZustatek.ToString();
@@ -44,6 +44,7 @@ namespace Test_Banka
             float vyber = float.Parse(textBoxHodnota.Text);
             banka.Vyber(vyber);
             lblAktualniZustatek.Text = banka.aktualniZustatek.ToString();
+       
         }
 
         private void buttonZaplatit_Click(object sender, EventArgs e)
@@ -65,7 +66,11 @@ namespace Test_Banka
         {
             float zmenaKontokorent = float.Parse(txtKontokorent.Text);
             banka.Kontokorent(zmenaKontokorent);
-            lblKontokorent.Text = zmenaKontokorent.ToString();
+            if (banka.aktualniZustatek > 0)
+            {
+                lblKontokorentCastka.Text = zmenaKontokorent.ToString();
+            }
+
         }
 
         private void btnLimitPlatba_Click(object sender, EventArgs e)
@@ -73,6 +78,7 @@ namespace Test_Banka
             int zmenaLimituPlatba = int.Parse(txtLimitPlatba.Text);
             banka.ZmenaLimituPlatba(zmenaLimituPlatba);
             labelCastkaVyber.Text = zmenaLimituPlatba.ToString();
+            
         }
 
         private void lblJmeno_Click(object sender, EventArgs e)

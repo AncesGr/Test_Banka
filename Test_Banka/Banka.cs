@@ -67,7 +67,7 @@ namespace Test_Banka
         public void Vyber(float vyber)
         {
 
-            if (vyber - aktualniZustatek <= 0 && vyber <= tydenniLimit)
+            if (vyber - aktualniZustatek -kontokorent <= 0 && vyber <= tydenniLimit)
             {
                 aktualniZustatek -= vyber;
                 MessageBox.Show("Bylo vybráno: " + vyber.ToString());

@@ -62,11 +62,11 @@ namespace Test_Banka
             // 
             this.lblAktualniLimit.AutoSize = true;
             this.lblAktualniLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblAktualniLimit.Location = new System.Drawing.Point(21, 48);
+            this.lblAktualniLimit.Location = new System.Drawing.Point(12, 48);
             this.lblAktualniLimit.Name = "lblAktualniLimit";
-            this.lblAktualniLimit.Size = new System.Drawing.Size(104, 20);
+            this.lblAktualniLimit.Size = new System.Drawing.Size(153, 20);
             this.lblAktualniLimit.TabIndex = 0;
-            this.lblAktualniLimit.Text = "Aktuální limit";
+            this.lblAktualniLimit.Text = "Aktuální limit platby";
             // 
             // lblCastkaLimit
             // 
@@ -81,7 +81,7 @@ namespace Test_Banka
             // textBoxLimit
             // 
             this.textBoxLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxLimit.Location = new System.Drawing.Point(137, 51);
+            this.textBoxLimit.Location = new System.Drawing.Point(198, 51);
             this.textBoxLimit.Name = "textBoxLimit";
             this.textBoxLimit.Size = new System.Drawing.Size(100, 27);
             this.textBoxLimit.TabIndex = 2;
@@ -89,7 +89,7 @@ namespace Test_Banka
             // buttonLimit
             // 
             this.buttonLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonLimit.Location = new System.Drawing.Point(243, 48);
+            this.buttonLimit.Location = new System.Drawing.Point(312, 48);
             this.buttonLimit.Name = "buttonLimit";
             this.buttonLimit.Size = new System.Drawing.Size(115, 40);
             this.buttonLimit.TabIndex = 3;
@@ -332,7 +332,7 @@ namespace Test_Banka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(791, 522);
             this.Controls.Add(this.lblAktualniZustatek);
             this.Controls.Add(this.lblCisloUctu);
